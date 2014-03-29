@@ -1,0 +1,36 @@
+{
+  "name": "fat-rss",
+  "version": "0.1.0",
+  "description": "Receipt for `Fat` framework",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tmshv/fat-rss.git"
+  },
+  "keywords": [
+    "fat",
+    "rss"
+  ],
+  "author": "Roman Timashev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tmshv/fat-rss/issues"
+  },
+  "homepage": "https://github.com/tmshv/fat-rss",
+  "dependencies": {
+    "fat-article": "~0.1.0",
+    "fat": "~0.1.0",
+    "rss": "git+ssh://git@github.com:tmshv/node-rss.git"
+  },
+  "devDependencies": {
+    "should": "~3.2.0-beta1",
+    "feedparser": "~0.16.6",
+    "xml2js": "~0.4.2"
+  }
+}
